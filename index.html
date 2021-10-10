@@ -1,49 +1,109 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<head>
+  <meta charset="utf-8">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style1.css">
 
-    <title>Waretag</title>
-  </head>
-  <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Including JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <title>Waretag</title>
+</head>
 
+<body>
+
+  <!-- Omkar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark nav-container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Waretag</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Shop Now</a>
+          </li>
+          <li class="nav-item dropdown mydropdowncss">
+            <a class="nav-link dropdown-toggle active" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/">About Waretag</a></li>
+              <li><a class="dropdown-item" href="/">Our Partners</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="/">Terms Of Service</a></li>
+              <li><a class="dropdown-item" href="/">Privacy Policy</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="btn btn-danger">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="navigation-section">
+    <div class="top-container">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">A tracking device which is used to track/locate our belongings/stuff.</h1>
+          <!--  -->
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/feat-image.jpeg" alt="iphone-mockup" width="100%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Ayush -->
   <h1>Features</h1>
 
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card" >
-      <div class="card-body">
-        <h4 class="card-title">Small design, easy to set up</h4>
-        <p class="card-text">Waretag is quite small, with its size close to a bottle cap. The device even has a small speaker inside it.</p>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Small design, easy to set up</h4>
+          <p class="card-text">Waretag is quite small, with its size close to a bottle cap. The device even has a small speaker inside it.</p>
 
+        </div>
       </div>
-    </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card" >
-      <div class="card-body">
-        <h4 class="card-title">Precision Tracking</h4>
-        <p class="card-text">With the use of Ultra Wide Band Technology and U1 chip, wartag can                                           accurately  measure the distance of them from the Phone and return a precise location.</p>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Precision Tracking</h4>
+          <p class="card-text">With the use of Ultra Wide Band Technology and U1 chip, wartag can accurately measure the distance of them from the Phone and return a precise location.</p>
 
+        </div>
       </div>
-    </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card" >
-      <div class="card-body">
-        <h4 class="card-title">Find my Network</h4>
-        <p class="card-text"> If a Waretag is separated from the user, the Waretag will send anonymous
-  signals to other Android Phones around it. It will then relay its own
-  location, through the nearest Android device, to its owner in the
-  background, privately
-</p>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Find my Network</h4>
+          <p class="card-text"> If a Waretag is separated from the user, the Waretag will send anonymous
+            signals to other Android Phones around it. It will then relay its own
+            location, through the nearest Android device, to its owner in the
+            background, privately
+          </p>
 
-      </div>
+        </div>
       </div>
     </div>
   </div>
@@ -51,38 +111,39 @@
 
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card" >
-      <div class="card-body">
-        <h4 class="card-title">User- Replaceable  Battery</h4>
-        <p class="card-text">
-        Waretags come with a user-replaceable battery. It  works fine for ‘over a year,’ after
-     which the user will have to replace its battery. Waretags use the standard CR2032
-     coin cell battery, which can be easily replaced by taking off its back cover.
-</p>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">User- Replaceable Battery</h4>
+          <p class="card-text">
+            Waretags come with a user-replaceable battery. It works fine for ‘over a year,’ after
+            which the user will have to replace its battery. Waretags use the standard CR2032
+            coin cell battery, which can be easily replaced by taking off its back cover.
+          </p>
 
-      </div>
-    </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card" >
-      <div class="card-body">
-        <h4 class="card-title">Privacy and Security</h4>
-        <p class="card-text">  Waretag is designed from the ground up to keep location data private and secure.
-     No location data or location history is physically stored inside Waretag.
-     Communication with the Find My network is end-to-end encrypted so that only the
-     owner of a device has access to its location data, and no one.
-</p>
-
-      </div>
+        </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card" >
-      <div class="card-body">
-        <h4 class="card-title">Lost Mode</h4>
-        <p class="card-text"> If you lose a Waretag, and cannot find its location, you can put the Waretag in the   ‘Lost Mode.’ This will create a trigger in  Find My network, and in case an Android device comes near to your Waretag, it will relay its location (privately) to your Phone</p>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Privacy and Security</h4>
+          <p class="card-text"> Waretag is designed from the ground up to keep location data private and secure.
+            No location data or location history is physically stored inside Waretag.
+            Communication with the Find My network is end-to-end encrypted so that only the
+            owner of a device has access to its location data, and no one.
+          </p>
 
+        </div>
       </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Lost Mode</h4>
+          <p class="card-text"> If you lose a Waretag, and cannot find its location, you can put the Waretag in the ‘Lost Mode.’ This will create a trigger in Find My network, and in case an Android device comes near to your Waretag, it will relay
+            its location (privately) to your Phone</p>
+
+        </div>
       </div>
     </div>
   </div>
@@ -91,26 +152,26 @@
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/customer1.jpg" alt="" >
+        <img src="images/customer1.jpg" alt="">
         <p>⭐⭐⭐⭐</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-        <h3> Omkar Kumar</h3>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+        <h3> Omkar</h3>
       </div>
       <div class="carousel-item ">
-      <img src="images/customer1.jpg" alt="" >
-      <p>⭐⭐⭐</p>
+        <img src="images/customer2.jpg" alt="">
+        <p>⭐⭐⭐</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
-      </p>
-          <h3>Abhinav Dubey</h3>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+        </p>
+        <h3>Abhinav Kumar Dubey</h3>
       </div>
       <div class="carousel-item ">
-       <img src="images/customer1.jpg" alt="" >
+        <img src="images/customer2.jpg" alt="">
         <p>⭐⭐⭐⭐</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
-      </p>
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC
+        </p>
         <h3>Ayush Kumar </h3>
       </div>
     </div>
@@ -126,25 +187,25 @@
 
   <section id='consult'>
 
-  <div class="row">
-    <div class="col-lg-6">
-      <h1>Get a free consultation</h1>
-      <label for="Full Name">Name :</label><br>
-    <input type="text" id="fname" name="full name"><br>
-    <label for="email">Email :</label><br>
-  <input type="email" id="email" name="email"><br>
-  <label for="Full Name">Phone number :</label><br>
-  <input type="phone" id="phone" name="phone number"><br>
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Get a free consultation</h1>
+        <label for="Full Name">Name :</label><br>
+        <input type="text" id="fname" name="full name"><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="Full Name">Phone number :</label><br>
+        <input type="phone" id="phone" name="phone number"><br>
 
+      </div>
+      <div class="col-lg-6 ">
+        <img src="images/consult.png" alt="no image">
+      </div>
     </div>
-    <div class="col-lg-6 ">
-      <img src="images/consult.png" alt="no image">
-    </div>
-  </div>
 
   </section>
 
 
-  </body>
+</body>
 
 </html>
