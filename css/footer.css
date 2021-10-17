@@ -6,11 +6,11 @@
    --secondary-color:#111827;
    --third-color:#374151;
 }
-body{
-   /* background-color: var(--secondary-color); */
+/* body{
+   background-color: var(--secondary-color);
    font-family: 'Besley', serif;
    margin:0px;
-}
+} */
 
 
 .b-example-divider {
@@ -23,7 +23,7 @@ body{
  #button:hover
  {
   background-color:red;
-  
+
  }
  .input
  {
@@ -33,7 +33,7 @@ body{
     padding:0.5rem;
     color:white;
     font-weight:bold;
-    
+
  }
  #button
  {
@@ -41,7 +41,7 @@ body{
     font-weight:bold;
     border-radius:0.5rem;
     background-color:transparent;
-    
+
     color:white;
  }
 
@@ -57,7 +57,7 @@ body{
     /* text-align: center; */
  }
 
-.div-help 
+.div-help
 {
    padding-inline-start: 0px;
 
@@ -100,7 +100,7 @@ body{
   max-width:100%;
   display:flex;
   flex-direction:column;
- 
+
 }
 
 
@@ -124,7 +124,7 @@ body{
 .footer ul{
    padding-inline-start: 0px;
 }
-.footer .footer-header 
+.footer .footer-header
 {
 font-weight:bold;
 font-size:large;
@@ -146,4 +146,3 @@ font-size:large;
    margin:auto;
    display:block;
 }
-
