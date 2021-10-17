@@ -42,7 +42,7 @@
 }
 
 .top-container {
-  padding: 3% 10%;
+  padding: 3% 4% 3% 4%;
 }
 
 .navbar-brand {
@@ -76,7 +76,10 @@
 
 /* #3c31dd */
 .big-heading {
-  font-family: cursive;
+  /* font-family: cursive; */
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: left;
+  padding-right: 6%;
 }
 
 .title-image {
@@ -84,6 +87,8 @@
   position: relative;
   transition: 0.6s;
   transform-style: preserve-3d;
+  padding-left: 5%;
+
 }
 
 .title-image:hover {
