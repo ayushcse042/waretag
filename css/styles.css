@@ -1,13 +1,16 @@
 
-h1 {
+#feature h1 {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 
-.row {
+#feature .row {
   padding: 2% 4% 2% 4%;
 }
 
-.card {
+#feature .card {
   padding: 15%;
   margin: 3%;
   border-style: solid;
@@ -16,14 +19,20 @@ h1 {
   box-shadow: 19.799px 19.799px 40px 0px rgb(0 0 0 / 5%);
 }
 
-.card:hover {
+#feature .card:hover {
   border-width: 0px 0px 4px 0px;
 }
 
-.card h4 {
+#feature .card h4 {
   padding-bottom: 15%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
-
+#feature p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
 /* Carousel base class */
 #review .carousel {
   padding: 10% 20% 0% 20%;
@@ -38,6 +47,17 @@ h1 {
 /* Declare heights because of positioning of img element */
 #review .carousel-item {
   height: 20rem;
+}
+
+#review p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+#review h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 #review .carousel img {
@@ -64,6 +84,26 @@ h1 {
 #shop-card{
   margin-top: 5%;
 }
+
+#shop-card h1{
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+#shop-card h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+#shop-card p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
 #shop-card .container {
   position: relative;
    width: 1100px;
@@ -89,7 +129,7 @@ h1 {
 }
 
 #shop-card .container .card:hover{
-  height: 420px;
+  height: 520px;
 }
 
 #shop-card .card .imgBx{
@@ -119,6 +159,7 @@ h1 {
   opacity: 0;
   transition: 0.3s ease-in-out;
   transition-delay: 0s
+
 }
 
 #shop-card .container .card:hover .content{
@@ -126,6 +167,7 @@ h1 {
   opacity: 1;
   margin-top: -40px;
   transition-delay: 0.3s;
+  padding-bottom: 1px;
 }
 
 /* ---shop payment option------ */
@@ -134,42 +176,94 @@ h1 {
   background-color: black;
 }
 #transac-card {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #transac-card img{
-  height: 250px;
+  height: 100px;
   width: 400px;
 }
 
 
 /* -----------------about------------------ */
 
-
-
-
-
 #top{
   text-align: center;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: black;
+  color: white;
+  padding-bottom: 5%;
+
 }
-#top h1{
-  text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+#top .box{
+  width: 600px;
+  margin: auto;
+  text-align: left;
+
+}
+#top .box h2{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding-top: 2%;
+}
+#top .box h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 4.5rem;
 }
 #top img{
   border-radius: 50%;
   width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+
 }
 #body-1{
   margin-top: 100px;
   margin-bottom: 100px;
 }
+#body-1 h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding: 1%;
+
+}
+
+#body-1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    padding: 1%;
+
+}
 #body-1 img{
   width: 350px;
+  height: 600px;
+}
+
+#body-2 {
+  padding-top: 5%;
+}
+
+#body-2 h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+
+}
+#body-2 p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  padding-top: 5%;
+}
+
+#body-2 h2{
+
+  width: 450px;
+  margin-left: 100px;
 }
 
 #body-2 img{
@@ -178,5 +272,17 @@ h1 {
 }
 
 #body-3{
-  padding: 20%;
+  background-color: black;
+  padding: 10% 20%;
+  color: white;
+}
+
+#body-3 h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  padding-bottom: 2%;
+}
+#body-3 p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
 }
