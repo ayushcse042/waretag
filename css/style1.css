@@ -15,7 +15,7 @@
   flex-direction: column;
   background: black;
   padding-top: 10%;
-  margin-bottom: 15%;
+  /* margin-bottom: 15%; */
 }
 
 /* .navigation-section::before {
@@ -42,7 +42,7 @@
 } */
 
 .top-container {
-  padding: 3% 4% 3% 4%;
+  padding: 3% 4% 6% 4%;
 }
 
 .navbar-brand {
@@ -73,28 +73,28 @@
   box-shadow: none;
   border-color: white;
 }
+
 .nav-wavy {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(360deg);
+  /* padding-top:0px; */
 }
 
 .nav-wavy svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px);
-  height: 106px;
+  width: calc(100% + 1.3px); 
+   height: 139px;
   transform: rotateY(180deg);
 }
 
 .nav-wavy .shape-fill {
-  fill: black;
+  fill: #000000;
 }
-
 
 
 
