@@ -87,7 +87,7 @@
 .nav-wavy svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px); 
+  width: calc(100% + 1.3px);
    height: 139px;
   transform: rotateY(180deg);
 }
@@ -200,4 +200,16 @@
 .img-strip{
   background-color: #2C2C2C;
   text-align: right;
+}
+.desc-list .desc-list1 {
+    color: black;
+    list-style-type: none;
+}
+
+.desc-list .desc-list1:before {
+  content: '\25FE';
+    color: red;
+    float: left;
+    margin: 0 0 0 -2em;
+    width: 1.5em;
 }

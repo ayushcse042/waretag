@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img1{
+    height:10rem;
+    width:10rem;
+}  
+.notice{
+    margin-top: 30px;
+    background: #ff0000;
+    color: #fff;
+    padding: 10px 12px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    line-height: normal;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 50%;
+}  
+select{
+    width:32%;
+    border: 1.3px solid rgb(216, 216, 221);
+
+} 
+.shipp{
+    width: 49%;
+    border: 1.3px solid rgb(216, 216, 221);
+}
+ 
+small{
+    color: #383434;
+}
+span{
+    color: black;
+}
+.pin{
+    border: 1.3px solid rgb(216, 216, 221);
+}
+.line{
+    background-color: blue;
+}
+.info{
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    padding: 2rem;
+}
+.login{
+    text-decoration: none;
+    color: black;
+}
+.vl {
+    border-left: 2px solid rgb(215, 223, 215);
+    height:80rem;
+    position: absolute;
+    left: 60%;
+    margin-left: -3px;
+    top: 0;
+  }
+.off{
+    color: #ff0000;
+    font-size: .7rem;
+    margin-left: .3rem;
+}
+.price{
+    margin-left: .3rem;
+    font-size: .7rem;
+}
+ .aside{
+     margin-left: 5rem;
+ }
+.hr1{
+    margin: 3rem;
+  
+    
+}
+  .aside1{
+      margin-left: 10rem;
+
+  }
