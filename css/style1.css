@@ -1,13 +1,27 @@
 /* Omkar */
 .nav-container {
   background-color: blue;
-  border-bottom-left-radius: 1.8rem;
+  /* border-bottom-left-radius: 1.8rem; */
 }
 
 .navbar {
   padding: 0;
 }
-
+#get-started {
+  margin-top:3rem;
+  margin-left:9rem;
+  font-size:180%;
+  font-weight:bold;
+  height: 55px;
+  width: 180px;
+  border:0.1rem solid red;
+  border-radius: 1rem;
+  background-color:black;
+  color:white;
+}
+#get-started:hover {
+  background-color:red;
+}
 .navigation-section {
   color: #fff;
   position: relative;
